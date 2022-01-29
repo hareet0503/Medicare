@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Medicare Application">
+	<!-- <test name="Smoke">	   
+	 	<classes>
+			<class name="med.webtest.MedicareAccessTest" />
+		</classes> 
+	</test> -->
+	<test name="Regression">
+		<classes>
+			<class name="med.webtest.MedicareHomeTest" />
+			<class name="med.webtest.MedicareAboutTest" />
+			<class name="med.webtest.MedicareContactTest" />
+			<class name="med.webtest.MedicareViewProductTest" />
+			<class name="med.webtest.MedicareSignupTest" />
+			<class name="med.webtest.MedicareLoginTest" />
+			<class name="med.webtest.MedicareUserTest" />
+			<class name="med.webtest.MedicareUserCheckoutTest" /> 
+			<class name="med.webtest.MedicareAdminTest" />
+		</classes>
+	</test>
+</suite> 
